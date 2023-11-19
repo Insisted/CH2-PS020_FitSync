@@ -44,7 +44,7 @@ Bangkit Capstone's Project (FitSync)
         <tr>
             <td>Hidayat</td>
             <td>A694BSY2946</td>
-            <td><a href="https://github.com/hkvil" target="_blank">Github</a></td>
+            <td><a href="https://github.com/hkvil" target="_blank">hkvil</a></td>
         </tr>
     </tbody>
 </table>
