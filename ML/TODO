@@ -1,7 +1,11 @@
 TODO:
-- Filter dataset, pass to CC [Body Weight Workouts](https://www.kaggle.com/datasets/niharika41298/gym-exercise-data)
+- Filter dataset, pass to CC and use it to build the model. [Body ONLY Workouts](https://www.kaggle.com/datasets/niharika41298/gym-exercise-data)
     * Use only Equipments' "Body Only" data
-    * Fill in missing data (desc, rating [should we fill it using average rating?])
-    * Add a column for the images link
+    * Fill in missing data (
+        desc [scrap the internet],
+        rating [should we fill it using average rating?]
+    )
+    * Add a column for the images link (scrap the internet)
+    * Add steps to do the workout (scrap the internet)
 - Build recommender system (workout, based on users' level)
-- Build nutrition recommender
+- Build nutrition recommender (https://panganku.org/id-ID/cari_tipe) based on BMI
