@@ -1,0 +1,7 @@
+TODO:
+- Filter dataset, pass to CC [Body Weight Workouts](https://www.kaggle.com/datasets/niharika41298/gym-exercise-data)
+    * Use only Equipments' "Body Only" data
+    * Fill in missing data (desc, rating [should we fill it using average rating?])
+    * Add a column for the images link
+- Build recommender system (workout, based on users' level)
+- Build nutrition recommender
