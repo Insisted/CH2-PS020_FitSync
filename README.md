@@ -39,7 +39,7 @@ Bangkit Capstone's Project (FitSync)
         <tr>
             <td>Vincent</td>
             <td>A550BKY4421</td>
-            <td><a href="https://github.com/Vincent-2125250004">Github</a></td>
+            <td><a href="https://github.com/Vincent-2125250004">Vincent-2125250004</a></td>
         </tr>
         <tr>
             <td>Hidayat</td>
