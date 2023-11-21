@@ -1,1 +1,19 @@
 TODO:
+- Report
+    * daily history
+    * weight tracker
+    * BMI score (yang kaya chart loading screen tapi dibagi per angka healthy dll
+- Login (
+    user input berat,
+    tinggi,
+    gender,
+    Level (??)
+) [perlu pake login google ga?]
+- Home
+    * List workout recommended (disimpen lokal)
+    * Update workout list (kalo dipencet, update lokal)
+- Workout
+    * Ilustrasi
+    * deskripsi
+    * muscle target
+    * tipe workout
