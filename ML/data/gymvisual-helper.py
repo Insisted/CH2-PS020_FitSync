@@ -23,7 +23,7 @@ def clean(df, gym):
             'gender': dataf[3],
             'desc': res['desc'],
             'level': res['level'],
-            'time': res['level']
+            'time': res['time']
         })
 
     return temp
