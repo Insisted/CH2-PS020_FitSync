@@ -34,7 +34,7 @@ def get_vis(clean, vis):
 
     print(len(clean), len(vis))
 
-    merged.to_json('./ML/data/gymvisual-cleaned.json')
+    merged.to_json('./ML/data/gymvisual-cleaned.json', orient='records')
 
 
 if __name__ == '__main__':
