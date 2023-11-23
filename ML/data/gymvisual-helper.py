@@ -34,12 +34,12 @@ def clean(df, gym):
 def parse_time(time):
     parsed = re.findall(r'([0-9-]+)\s*(\w+)', time)
     res = dict()
+    res['desc'] = time
 
     for i in parsed:
         unit = i[1][:3]
 
         if re.match(r'\d+\s*sets*\s*of\s*\d+\s*(min|sec)\w+', time) and unit in ['sec', 'min']:
-            res['desc'] = time
             res[unit] = str(int(i[0]) * int(res['set']))
         else:
             res[unit] = i[0]
