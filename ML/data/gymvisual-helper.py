@@ -50,7 +50,7 @@ def parse_time(time):
 def get_vis(clean, vis):
     clean = pd.DataFrame(clean)
     vis = pd.DataFrame(vis)
-    merged = pd.merge(clean, vis, on='title')
+    merged = pd.merge(clean, vis, on='title').drop_duplicates(subset=['title'], keep='first')
 
     print(len(clean), len(vis), len(merged))
 
