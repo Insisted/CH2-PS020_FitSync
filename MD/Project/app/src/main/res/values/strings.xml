@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">FitSync</string>
     <string name="home">Home</string>
-    <string name="workout">Workout</string>
+    <string name="workout">Workouts</string>
     <string name="tracker">Tracker</string>
     <string name="account">Account</string>
     <!-- TODO: Remove or change this placeholder text -->
