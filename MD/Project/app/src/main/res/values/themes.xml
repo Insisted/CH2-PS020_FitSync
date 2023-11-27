@@ -34,6 +34,12 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
+    <style name="SplashScreenTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_light_background</item>
+        <item name="colorPrimaryDark">@color/md_theme_light_background</item>
+        <item name="colorAccent">@color/md_theme_light_background</item>
+    </style>
+
     <style name="TextAppearance.FitSync.DisplayLarge" parent="TextAppearance.Material3.DisplayLarge">
         <item name="fontFamily">@font/poppins_regular</item>
         <item name="android:textStyle">normal</item>
@@ -154,6 +160,8 @@
         <item name="android:letterSpacing">0</item>
     </style>
 
+
+    //BottomNavigationView
     <style name="Widget.App.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
         <item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationView</item>
         <item name="itemTextColor">@color/md_theme_light_onSurfaceVariant</item>
@@ -180,7 +188,27 @@
         <item name="android:color">@color/md_theme_light_surface</item>
     </style>
 
+    //Button
 
+    <style name="Widget.App.Button.OutlinedButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Button.TextButton</item>
+        <item name="android:textAppearance">@style/TextAppearance.FitSync.LabelMedium</item>
+        <item name="android:textColor">@color/md_theme_light_onPrimaryContainer</item>
+    </style>
+
+    <style name="Widget.App.Button" parent="Widget.Material3.Button">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Button</item>
+        <item name="android:textAppearance">@style/TextAppearance.FitSync.LabelLarge</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Button.TextButton" parent="ThemeOverlay.Material3.Button.TextButton">
+        <item name="colorOnContainer">@color/md_theme_light_primaryContainer</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Button" parent="ThemeOverlay.Material3.Button">
+        <item name="colorContainer">@color/md_theme_light_primaryContainer</item>
+        <item name="colorOnContainer">@color/md_theme_light_onPrimaryContainer</item>
+    </style>
 
 
     <style name="Theme.FitSync" parent="Base.Theme.FitSync">
@@ -200,6 +228,9 @@
         <item name="textAppearanceLabelMedium">@style/TextAppearance.FitSync.LabelMedium</item>
         <item name="textAppearanceLabelSmall">@style/TextAppearance.FitSync.LabelSmall</item>
         <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+
+        <item name="materialButtonOutlinedStyle">@style/Widget.App.Button.OutlinedButton</item>
+        <item name="materialButtonStyle">@style/Widget.App.Button</item>
     </style>
 
 

@@ -34,7 +34,13 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
+    <style name="SplashScreenTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_dark_background</item>
+        <item name="colorPrimaryDark">@color/md_theme_dark_background</item>
+        <item name="colorAccent">@color/md_theme_dark_background</item>
+    </style>
 
+    //BottomNavigationView
     <style name="Widget.App.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
         <item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationView</item>
         <item name="itemTextColor">@color/md_theme_dark_onSurfaceVariant</item>
@@ -59,6 +65,28 @@
             @style/ShapeAppearance.Material3.NavigationBarView.ActiveIndicator
         </item>
         <item name="android:color">@color/md_theme_dark_surface</item>
+    </style>
+
+    //Button+OutlineButton
+    <style name="Widget.App.Button.OutlinedButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Button.TextButton</item>
+        <item name="android:textAppearance">@style/TextAppearance.FitSync.LabelMedium</item>
+
+        <item name="android:textColor">@color/md_theme_dark_onPrimaryContainer</item>
+    </style>
+
+    <style name="Widget.App.Button" parent="Widget.Material3.Button">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Button</item>
+        <item name="android:textAppearance">@style/TextAppearance.FitSync.LabelLarge</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Button.TextButton" parent="ThemeOverlay.Material3.Button.TextButton">
+        <item name="colorOnContainer">@color/md_theme_dark_primaryContainer</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Button" parent="ThemeOverlay.Material3.Button">
+        <item name="colorContainer">@color/md_theme_dark_primaryContainer</item>
+        <item name="colorOnContainer">@color/md_theme_dark_onPrimaryContainer</item>
     </style>
 
 
