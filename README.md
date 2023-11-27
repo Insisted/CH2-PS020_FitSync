@@ -29,7 +29,7 @@ Bangkit Capstone's Project (FitSync)
         <tr>
             <td>Alida Shidqiya Naifa Ulmulikhun</td>
             <td>C248BSX4205</td>
-            <td><a href="#">Github</a></td>
+            <td><a href="https://github.com/alidasn">alidasn</a></td>
         </tr>
         <tr>
             <td>Muhammad Alfayed Dennita</td>
