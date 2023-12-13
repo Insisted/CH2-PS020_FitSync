@@ -1,6 +1,9 @@
 # Bangkit-FitSync
 Bangkit Capstone's Project (FitSync)
 
+# Archival
+This repository is now archived and will no longer receive updates. For a more recent updates, visit https://github.com/CH2-PS020-FitSync/
+
 # Capstone Team Member:
 <table>
     <thead>
